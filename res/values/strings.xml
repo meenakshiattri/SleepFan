@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">SleepFan</string>
+    <string name="Title">Select a Fan</string>
+    <string name="fan">Fan</string>
+    <string name="key_ad_unit_interstitial">ca-app-pub-7701524183129395/5227703660</string>
+    <string name="key_ad_unit_banner">ca-app-pub-7701524183129395/2274237262</string>  
+    
+     <string name="hour_text">HR</string>
+      <string name="minute_text">MIN</string>
+</resources>

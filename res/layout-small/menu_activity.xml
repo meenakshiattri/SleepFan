@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/back_bg">
+    
+    <TextView 
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:layout_centerInParent="true"
+       	android:visibility="invisible"
+     />
+    
+       <TextView 
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+       	android:layout_centerInParent="true"
+       	android:visibility="invisible"
+       	android:layout_centerVertical="true"
+     />
+  
+    <ImageView 
+        android:id="@+id/ac1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textView"
+        android:layout_toLeftOf="@id/textView1"
+      	android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/ac_fan_un"
+        />
+    
+     <ImageView 
+        android:id="@+id/ac2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textView"
+        android:layout_toRightOf="@id/textView1"
+      	android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/box_fan_un"
+        />
+     
+      <TextView  
+        android:id="@+id/txt_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header"
+   	 />
+      
+      <TextView  
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  
+        android:background="@drawable/title_name"
+       	android:layout_centerHorizontal="true"
+        />
+     
+     <ImageView 
+        android:id="@+id/ac3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_toLeftOf="@id/textView1"
+		android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/oven_fan_un"
+        />
+
+     <ImageView 
+        android:id="@+id/ac4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_toRightOf="@id/textView1"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"    
+        android:src="@drawable/fire_furnance_fan_un"
+        />
+    
+	  <RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:id="@+id/rootViewGroup">
+	   
+    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"   
+	    android:textSize="30sp"
+	/> 
+ 	</RelativeLayout> 
+     
+</RelativeLayout>
